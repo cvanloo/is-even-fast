@@ -7,5 +7,5 @@ publish:
 	wasm-pack publish
 
 clean:
-	-rm -f pkg
-	-rm -f target
+	-rm -rf pkg
+	-rm -rf target
