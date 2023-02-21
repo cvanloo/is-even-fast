@@ -1,0 +1,16 @@
+[package]
+name = "is-even-fast"
+version = "0.1.3"
+description = "blazingly fast is-even checking"
+license = "MPL-2.0"
+repository = "https://github.com/cvanloo/is-even-fast"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2.84"
+
+[dev-dependencies]
+wasm-bindgen-test = "0.2"
